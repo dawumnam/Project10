@@ -13,6 +13,8 @@
 		EB88ECC82645AC000030F944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB88ECC62645AC000030F944 /* Main.storyboard */; };
 		EB88ECCA2645AC070030F944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB88ECC92645AC070030F944 /* Assets.xcassets */; };
 		EB88ECCD2645AC070030F944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB88ECCB2645AC070030F944 /* LaunchScreen.storyboard */; };
+		EB88ECD52645AEFC0030F944 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88ECD42645AEFC0030F944 /* PersonCell.swift */; };
+		EB88ECD72645B93D0030F944 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88ECD62645B93D0030F944 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB88ECC92645AC070030F944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB88ECCC2645AC070030F944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB88ECCE2645AC070030F944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB88ECD42645AEFC0030F944 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		EB88ECD62645B93D0030F944 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				EB88ECC02645AC000030F944 /* AppDelegate.swift */,
 				EB88ECC22645AC000030F944 /* SceneDelegate.swift */,
+				EB88ECD42645AEFC0030F944 /* PersonCell.swift */,
 				EB88ECC42645AC000030F944 /* ViewController.swift */,
+				EB88ECD62645B93D0030F944 /* Person.swift */,
 				EB88ECC62645AC000030F944 /* Main.storyboard */,
 				EB88ECC92645AC070030F944 /* Assets.xcassets */,
 				EB88ECCB2645AC070030F944 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB88ECD72645B93D0030F944 /* Person.swift in Sources */,
 				EB88ECC52645AC000030F944 /* ViewController.swift in Sources */,
 				EB88ECC12645AC000030F944 /* AppDelegate.swift in Sources */,
+				EB88ECD52645AEFC0030F944 /* PersonCell.swift in Sources */,
 				EB88ECC32645AC000030F944 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKG9X63N2V;
 				INFOPLIST_FILE = Project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +315,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HKG9X63N2V;
 				INFOPLIST_FILE = Project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
